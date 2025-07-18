@@ -1,0 +1,21 @@
+body{
+                
+    background-color: rgb(234, 255, 196); 
+    font: normal 18pt monospace;
+    color: rgb(25, 25, 25);
+    text-align: center;
+            
+}
+
+.nav{
+
+    position: fixed;
+    background: rgba(25, 25, 25, 0.85);
+}
+    
+main{
+    
+    max-width: 60ch;
+    margin: auto;
+
+}
