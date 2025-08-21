@@ -1,4 +1,4 @@
-#### Todo mundo já quis compartilhar suas ideias e pensamentos na internet.
+## Todo mundo já quis compartilhar suas ideias e pensamentos na internet.
 
 As redes sociais tornaram esse compartilhamento de ideias uma coisa bem fácil de se fazer.
 Mas em meio a tanta toxicidade que as *social medias* podem espalhar, o movimento *small web* tem por objetivo trazer de volta o que a internet foi lá no início dos anos 2000, com blogs pessoais e só pessoas querendo conversar.
@@ -10,5 +10,5 @@ Vale salientar que esse blog é puramente um projeto pessoal, ou seja, ***I'll t
 
 Se você chegou até aqui, bem, seja bem-vindo e espero que aproveite ler o que se passa na minha mente.
 
-Att.
-###### Rebeca.
+Atenciosamente,
+Rebeca Rodrigues.
