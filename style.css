@@ -1,16 +1,41 @@
 body{
                 
     background-color: rgb(234, 255, 196); 
-    font: normal 18pt monospace;
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(25, 25, 25);
     text-align: center;
             
 }
 
 .nav{
+    
+    position: relative;
+    background: rgb(25, 25, 25);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding: 1rem;
+    border-radius: 30px;
+}
 
-    position: fixed;
-    background: rgba(25, 25, 25, 0.85);
+.nav button{
+
+    background: none;
+    border: none;
+    border-radius: 25px;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: rgb(234, 255, 196);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav button:hover{
+
+    background: rgb(234, 255, 196);
+    color: rgb(25, 25, 25);
+    transform: scale(1.1);
 }
     
 main{
@@ -18,4 +43,50 @@ main{
     max-width: 60ch;
     margin: auto;
 
+}
+
+.sobre{
+
+    position: relative;
+    max-width: 900px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    background: rgb(25, 25, 25);
+    padding: 2rem;
+    border-radius: 75px;
+}
+.sobre img{
+
+    border-radius: 50%;
+}
+
+.sobre-content{
+
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sobre-content h2{
+
+    padding: 0.8rem;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    background: rgb(234, 255, 196);
+    color: rgb(25, 25, 25);
+}
+
+.sobre-content p{
+
+    margin: 8px;
+    max-width: 550px;
+    line-height: 1.5
 }
