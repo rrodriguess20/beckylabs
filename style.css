@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
 body{
                 
-    background-color: rgb(234, 255, 196); 
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 255, 196);
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 15px;
     color: rgb(25, 25, 25);
     text-align: center;
             
+}
+
+
+.ubuntu-sans-mine{
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .nav{
@@ -24,9 +37,10 @@ body{
     border: none;
     border-radius: 25px;
     margin: 0 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     cursor: pointer;
     color: rgb(234, 255, 196);
+    font-family: "Ubuntu Sans", sans-serif;
     font-weight: bold;
     transition: all 0.3s ease;
 }
@@ -36,13 +50,17 @@ body{
     background: rgb(234, 255, 196);
     color: rgb(25, 25, 25);
     transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    
 }
-    
-main{
-    
-    max-width: 60ch;
-    margin: auto;
 
+.obras{
+
+    display: grid;
+    place-items: center;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .sobre{
@@ -50,13 +68,14 @@ main{
     position: relative;
     max-width: 900px;
     display: flex;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 25%;
+    transition: all 0.5s ease-in-out;
     align-items: center;
     background: rgb(25, 25, 25);
     padding: 2rem;
     border-radius: 75px;
 }
+
 .sobre img{
 
     border-radius: 50%;
@@ -64,7 +83,7 @@ main{
 
 .sobre-content{
 
-    font-size: 17px;
+    font-size: 16px;
     color: white;
     text-align: center;
     flex: 1;
@@ -89,4 +108,9 @@ main{
     margin: 8px;
     max-width: 550px;
     line-height: 1.5
+}
+
+.sobre:hover{
+
+    transform: translateY(-10px);
 }
