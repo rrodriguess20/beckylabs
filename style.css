@@ -2,7 +2,7 @@
 
 body{
                 
-    background-color: rgb(234, 255, 196);
+    background: linear-gradient(90deg, #eaffc4, #bcd48f, #a0c492);
     font-family: "Ubuntu Sans", sans-serif;
     font-size: 15px;
     color: rgb(25, 25, 25);
@@ -24,9 +24,8 @@ body{
     
     position: relative;
     background: rgb(25, 25, 25);
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
+    max-width: 75%;
+    margin: auto;
     padding: 1rem;
     border-radius: 30px;
 }
@@ -59,26 +58,64 @@ body{
     display: grid;
     place-items: center;
     max-width: fit-content;
-    margin: 0 auto;
+    margin: auto;
     padding: 2rem;
+}
+
+.home{
+
+    display:flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.home-project1{
+
+    position: inherit;
+    display: grid;
+    margin: auto;
+    flex: 1;
+    background-color: #f4faea;
+    max-width: 200px;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.home-project2{
+
+    position: inherit;
+    display: grid;
+    margin: auto;
+    flex: 1;
+    background-color: #f4faea;
+    max-width: 200px;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.home-project3{
+
+    position: inherit;
+    display: grid;
+    margin: auto;
+    flex: 1;
+    background-color: #f4faea;
+    max-width: 200px;
+    padding: 2rem;
+    border-radius: 25px;
 }
 
 .sobre{
 
-    position: relative;
-    max-width: 900px;
+    position: inherit;
+    max-width: fit-content;
     display: flex;
-    left: 25%;
+    margin: auto;
     transition: all 0.5s ease-in-out;
     align-items: center;
     background: rgb(25, 25, 25);
     padding: 2rem;
     border-radius: 75px;
-}
-
-.sobre img{
-
-    border-radius: 50%;
 }
 
 .sobre-content{
@@ -92,6 +129,11 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.sobre-content img{
+    justify-content: center;
+    border-radius: 50%;
 }
 
 .sobre-content h2{
@@ -113,4 +155,25 @@ body{
 .sobre:hover{
 
     transform: translateY(-10px);
+}
+
+footer{
+
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+    color: rgb(234, 255, 196);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+footer p{
+
+    font-weight: bold;
+    font-style: italic;
 }
